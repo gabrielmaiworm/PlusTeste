@@ -1,0 +1,87 @@
+{
+  "applications": "*",
+  "changelogDate": "20220526163205",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "estabelecimento",
+  "fields": [
+    {
+      "fieldName": "idLocal",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "objectId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phone1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "placeId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "types",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "validatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "vicinity",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "vaga",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "foto",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nota",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "lat2lng2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hasChairWheel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hasHandicappedHelp",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hasInterpreter",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hasSpecialFurniture",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Estabelecimento",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "avaliacao",
+      "otherEntityRelationshipName": "estabelecimento",
+      "relationshipName": "avaliacao",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}
